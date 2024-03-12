@@ -8,7 +8,7 @@ afk_counter = 0  # how long you've been afk
 while True:
     if (
         pag.position() == curr_coords
-    ):  # if the mouse has not moved, it add 1 to the afk counter
+    ):  # if the mouse has not moved, it adds 1 to the afk counter
         afk_counter += 1
     else:
         afk_counter = 0
